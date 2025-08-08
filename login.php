@@ -1,5 +1,7 @@
 <?php
- 
+ include 'connect.php';
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +12,7 @@
 </head>
 <body>
     <h2>Log In</h2>
-    <form>
+    <form action="login.php" method="post">
         <label>username:</label>
         <br>
         <input type="text" name="username" required>
